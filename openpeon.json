@@ -1,0 +1,76 @@
+{
+  "cesp_version": "1.0",
+  "name": "ccg_gla_worker",
+  "display_name": "C&C Generals: GLA Worker",
+  "version": "1.0.0",
+  "author": { "name": "Yonah Karp", "github": "YonahKarp" },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/Yes.mp3", "label": "Yes?" },
+        { "file": "sounds/What_do_you_want_with_me.mp3", "label": "What do you want with me?"},
+        { "file": "sounds/I_will_help.mp3", "label": "I will help." },
+        { "file": "sounds/Are_there_not_better_tools.mp3", "label": "Are there not better tools?" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/If_that_is_what_you_want.mp3", "label": "If that is what you want." },
+        { "file": "sounds/I_will_do_what_I_must.mp3", "label": "I will do what I must." },
+        { "file": "sounds/I_will_try_to_hurry.mp3", "label": "I will try to hurry."},
+        { "file": "sounds/I_will_do_the_best_I_can.mp3", "label": "I will do the best I can."},
+        { "file": "sounds/If_I_really_have_to.mp3", "label": "If I really have to."},
+        { "file": "sounds/I_will_work.mp3", "label": "I will do my best." },
+        { "file": "sounds/I_will_obey.mp3", "label": "I will obey."},
+        { "file": "sounds/Here_I_go.mp3", "label": "Here I go." },
+        { "file": "sounds/I_do_what_I_am_told.mp3", "label": "I do what I am told." },
+        { "file": "sounds/I_guess_I_should_help_out.mp3", "label": "I guess I should help out." },
+        { "file": "sounds/If_you_say_so.mp3", "label": "If you say so." },
+        { "file": "sounds/Starting_repairs.mp3", "label": "Starting repairs." },
+        { "file": "sounds/I_should_repair_that.mp3", "label": "I should repair that." }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/All_work_is_complete.mp3", "label": "All work is complete." },
+        { "file": "sounds/I_am_finished_with_the_building.mp3", "label": "I am finished with the building." },
+        { "file": "sounds/Building_construction_has_been_completed.mp3", "label": "Building construction has been completed." },
+        { "file": "sounds/That_was_alot_of_work.mp3", "label": "That was a lot of work." },
+        { "file": "sounds/This_is_hard_work.mp3", "label": "This is hard work." }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/Do_not_hurt_me.mp3", "label": "Do not hurt me." },
+        { "file": "sounds/I_surrender.mp3", "label": "I surrender." },
+        { "file": "sounds/This_may_be_painful.mp3", "label": "This may be painful." },
+        { "file": "sounds/It_is_not_looking_too_good_is_it.mp3", "label": "It is not looking too good, is it?" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/Can_I_have_some_shoes.mp3", "label": "Can I have some shoes?" },
+        { "file": "sounds/I_cant_build_there.mp3", "label": "I can't build there." },
+        { "file": "sounds/That_building_cannot_fit_there.mp3", "label": "That building cannot fit there." }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/I_cannot_see_any_more_supplies.mp3", "label": "I cannot see any more supplies." },
+        { "file": "sounds/Theres_not_enough_room_for_that_building.mp3", "label": "There's not enough room for that building." },
+        { "file": "sounds/I_cant_build_there.mp3", "label": "I can't build there." },
+        { "file": "sounds/That_building_cannot_fit_there.mp3", "label": "That building cannot fit there." },
+        { "file": "sounds/There_are_no_more_supplies_to_carry.mp3", "label": "There are no more supplies to carry." },
+        { "file": "sounds/This_supply_pile_is_empty.mp3", "label": "This supply pile is empty." }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/You_change_your_mind_often.mp3", "label": "You change your mind often."},
+        { "file": "sounds/It_already_needs_repairs.mp3", "label": "It already needs repairs?" }
+      ]
+    }
+  }
+}
